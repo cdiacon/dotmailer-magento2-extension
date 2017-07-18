@@ -40,6 +40,11 @@ class Automation
     ];
 
     /**
+     * @var \Dotdigitalgroup\Email\Model\ResourceModel\Automation
+     */
+    private $automationResource;
+
+    /**
      * @var int
      */
     private $limit = 100;
@@ -98,11 +103,6 @@ class Automation
      * @var \Dotdigitalgroup\Email\Model\ResourceModel\Automation\CollectionFactory
      */
     private $automationFactory;
-
-    /**
-     * @var \Dotdigitalgroup\Email\Model\ResourceModel\AutomationFactory
-     */
-    private $automationResourceFactory;
 
     /**
      * @var \Magento\Sales\Model\OrderFactory
